@@ -5,7 +5,7 @@ Build a model/pipeline to convert an informal sentence into a formal one and vic
 
 ## Models Used
 - **T5 Fine-tuned Model**: `prithivida/informal_to_formal_styletransfer` from Hugging Face Transformers for informal-to-formal conversion.
-- (Optional) LLMs with custom prompts for formal-to-informal (not included by default).
+- **gpt-4o-mini**: Use prompting with gpt-4o-mini for sentence style transfer.
 
 
 ## Project Setup & Usage
