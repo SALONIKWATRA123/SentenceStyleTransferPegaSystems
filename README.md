@@ -59,12 +59,6 @@ The app will open in your browser at http://localhost:8501
 
 ---
 
-## Key Challenges & Assumptions
-- **Dataset**: Uses GYAFC (Entertainment & Music domain) for parallel informal-formal pairs.
-- **Model**: Only informal-to-formal is supported out-of-the-box. For formal-to-informal, a prompt-based LLM or further fine-tuning is needed.
-- **Evaluation**: BLEU score is used for automatic evaluation; qualitative examples are shown.
-- **Improvements**: Add formal-to-informal support, use larger LLMs, or train on more diverse data.
-
 ## Requirements
 - Python 3.8+
 - `transformers`, `datasets`, `torch`, `evaluate`, `pandas`, `numpy`
